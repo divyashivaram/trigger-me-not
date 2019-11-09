@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "Trigger warning",
+    "version": "0.1",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "<all_urls>"
+    ],
+    "browser_action": {
+        "default_icon": "images/icon.png",
+        "default_popup": "html/popup.html"
+    },
+    "content_scripts": [{
+        "matches": [
+            "<all_urls>"
+        ],
+        "js": ["scripts/jquery-3.4.1.min.js", "scripts/content.js"],
+        "css": ["scripts/content.css"],
+        "run_at": "document_end",
+        "all_frames": false
+    }],
+    "background": {
+        "scripts": ["scripts/background.js"],
+        "persistent": false
+    }
+}
