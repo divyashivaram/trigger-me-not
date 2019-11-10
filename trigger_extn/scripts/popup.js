@@ -7,8 +7,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // Save custom triggers in extension's local storage
     localStorage.setItem("triggers", JSON.stringify(triggers));
     var storedNames = JSON.parse(localStorage.getItem("triggers"));
-    console.log('Local storage lastly', storedNames);s
-    $("#message").val(''); // to reset the textbox
+    $("#customTrigger").val(''); // to reset the textbox
 });
 
     // Query for the active tab
@@ -30,4 +29,16 @@ window.addEventListener('DOMContentLoaded', () => {
 // function setDomInfo() {
 //     // Hit the api to display some data
 //     $("#content").append("<h2>Trigger warning</h2>");
+//   $('html').height($('#menu').height());
+//
 // }
+
+$(document).ready(function(){
+  $('#send').attr('disabled',true);
+  $('#customTrigger').keyup(function(){
+    if($(this).val().length !=0)
+      $('#send').attr('disabled', false);
+    else
+      $('#send').attr('disabled',true);
+  })
+});

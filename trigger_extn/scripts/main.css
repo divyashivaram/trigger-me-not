@@ -1,0 +1,35 @@
+body{
+    width: 200px;
+    height:100px;
+}
+
+p {
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.textbox{
+    width: 170px;
+}
+
+.add-btn{
+    width: 50px;
+    margin-top: 7px;
+}
+
+h1 { color: #7c795d;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.25;
+    margin: 0 0 10px;
+    font-size: 25px;
+    /*font-weight: bold;*/
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+/*h1 { color: #ffffff; font-family: 'Lato', sans-serif; font-size: 54px; font-weight: 300; line-height: 58px; margin: 0 0 58px; }*/

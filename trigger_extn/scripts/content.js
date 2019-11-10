@@ -35,7 +35,7 @@ chrome.runtime.onMessage.addListener(
 
                 const intersection = abuseWords.filter(element => newWordInTitle.includes(element));
                 if (intersection.length > 0) {
-                    console.log(intersection);
+                    // console.log(intersection);
                     $(this).parent().parent().parent().addClass("overlay");
                     $(this).parent().parent().parent().before($('<span/>').text("TW: Assault "));
                     $(this).parent().parent().parent().before($('<button class="block-btn">').text("Click to unhide"));
