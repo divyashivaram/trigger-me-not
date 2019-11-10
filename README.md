@@ -27,7 +27,7 @@ Google Chrome*
 
 * Milestone-2: Context based detection of Triggers- Using Machine Learning
     - [x] Set up Flask server
-    - [ ] Establish a connection with the Chrome extension, write REST API to accept POST requests and respond with a dummy JSON
+    - [x] Write REST API to accept POST requests and respond with a dummy JSON
     - [x] Fetch data and label them for building the ML model- Triggers and Non-triggers (Third person news reporting trigger data is not available)
     - [x] Build a Logistic Regression model to classify Triggers
     - [ ] API tests
