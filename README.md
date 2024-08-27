@@ -1,6 +1,6 @@
 # Trigger-me-not
 
-An application to help users avoid potential psychological triggers on the internet. This application is a chrome extension that parses the webpage content and detects potential triggers and blurs the text with a <TW: reason> and a button to unhide the blur if the user wishes to read it anyway.
+A browser extension to help users avoid potential psychological triggers on the internet. This application is a chrome extension that parses the webpage content and detects potential triggers and blurs the text with a <TW: reason> and a button to unhide the blur if the user wishes to read it anyway.
 
 ## Getting Started
 
